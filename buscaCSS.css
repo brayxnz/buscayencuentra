@@ -1,0 +1,150 @@
+body {
+	background-image: url(https://static.vecteezy.com/system/resources/previews/002/948/763/non_2x/pixel-minecraft-style-land-background-vector.jpg);
+	place-items: center;
+	place-content: center;
+	justify-content: center;
+	justify-items: center;
+}
+h1 {
+	font-family: cooper;
+	font-size: 24px;
+}
+button:hover {
+	background-color: darkblue;
+	color: white;
+}
+.contenedor {
+	place-self: center;
+	background-color: #fffffff05;
+	backdrop-filter: blur(5px);
+	filter: contrast(80%);
+	border-radius: 10px;
+	border: 1px solid white;
+	margin-top: 75px;
+	place-items: center;
+	font-family: Arial;
+	height: 200px;
+	width: 300px;
+}
+#contMenu {
+	place-self: center;
+	background-color: #fffffff05;
+	backdrop-filter: blur(5px);
+	filter: contrast(80%);
+	border-radius: 10px;
+	border: 1px solid white;
+	margin-top: 75px;
+	place-items: center;
+	font-family: Arial;
+	height: 500px;
+	width: 300px;
+}
+
+#mJugar {
+	place-self: center;
+	background-color: transparent;
+	color: white;
+	border-radius: 10px;
+	height: 50px;
+	width: 100px;
+	margin-left: 100px;
+}
+
+#mJugar:hover {
+	background-color: darkblue;
+	color: white;
+}
+#mGif {
+	border-radius: 10px;
+	width: 75%;
+	margin-top: 10px;
+	margin-left: 33px;
+}
+
+#mapContenedor {
+	place-self: center;
+	position: relative;
+	width: 350px; /* Tamaño fijo para el contenedor del mapa */
+	height: 450px; /* Tamaño fijo para el contenedor del mapa */
+	overflow: scroll; /* Permite el desplazamiento si la imagen es más grande que el contenedor */
+	margin: 20px ;
+	border: 2px solid #ccc;
+}
+#mapIMG {
+	display: block;
+}
+.hidden {
+	display: none;
+}
+.btn{
+	place-self: center;
+	background-color: transparent;
+	filter: contrast(80%);
+	color: black;
+	border-radius: 10px;
+	height: 50px;
+	width: 100px;
+}
+@media (min-width: 700px){
+	body {
+		background-image: url(https://images.steamusercontent.com/ugc/2310974141604980016/B4EF3A7A2D1772DE26B1A6F51CE33A04FD8BB917/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+		place-items: center;
+	}
+	
+	#contMenu {
+		background-color: #fffffff05;
+		backdrop-filter: blur(5px);
+		filter: contrast(80%);
+		border-radius: 10px;
+		border: 1px solid white;
+		margin-top: 75px;
+		place-items: center;
+		font-family: Arial;
+		height: 500px;
+		width: 500px;
+	}
+	.contenedor {
+		background-color: #fffffff05;
+		backdrop-filter: blur(5px);
+		filter: contrast(80%);
+		border-radius: 10px;
+		border: 1px solid white;
+		margin-top: 75px;
+		place-items: center;
+		font-family: Arial;
+		height: 200px;
+		width: 500px;
+	}
+	#mGif {
+		border-radius: 10px;
+		width: 75%;
+		margin-top: 10px;
+		margin-left: 70px;
+	}
+
+	#mJugar {
+		place-self: center;
+		background-color: transparent;
+		color: black;
+		border-radius: 10px;
+		height: 50px;
+		width: 200px;
+		margin-left: 150px;
+	}
+	.btn{
+		place-self: center;
+		background-color: transparent;
+		filter: contrast(80%);
+		color: black;
+		border-radius: 10px;
+		height: 50px;
+		width: 200px;
+	}
+
+	#mapContenedor {
+		position: relative;
+		overflow: auto;
+		height: auto;
+		width: auto;
+	}
+}
